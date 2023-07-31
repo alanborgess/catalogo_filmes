@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    align-items: center; 
+  }
+  
+  .filme-card {
+    flex: 1;
+    max-width: 350px;
+    margin-right: 20px;
+  }
+  
+  .filme-card img {
+    width: 100%;
+    height: auto;
+    display: block; 
+    margin: 10 auto; 
+  }
+  
+  .filme-detalhes {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+  }
+  
+  .filme-detalhes h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: bold; 
+  }
+  
+  .filme-detalhes p {
+    margin-bottom: 3px;
+  }
+  
+  .filme-detalhes p strong {
+    font-weight: bold; 
+  }
+  
+
+  
